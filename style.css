@@ -11,7 +11,7 @@
 
     /*tamanhos*/
     --padding-card_interno:22px;
-    --margin-card:26px;
+    --margin-card:23px;
     --margin-header:30px;
     --tamanho-paragrafos:18px;
     --distancias-titulos:5px;
@@ -39,6 +39,7 @@ p{
 }
 .imagens_cards{
     text-align: right;
+    padding: 10px;
 }
 
 
@@ -67,13 +68,22 @@ header{
 /*cartoes*/
 
 #surpervisor{
-    display: flex;
-    flex-direction: column;
     margin: var(--margin-card);
     box-shadow: var(--sombras-cards);
     border-top: 4px solid  #4CD6D6;
     border-radius: var(--borda-cards);
     padding: var(--padding-card_interno);
+}
+
+/*builder*/
+
+#builder{
+    margin: var(--margin-card);
+    box-shadow: var(--sombras-cards);
+    padding: var(--padding-card_interno);
+    border-radius: var(--borda-cards);
+    border-top: 4px solid #D65B5B ;
+
 }
 
 
