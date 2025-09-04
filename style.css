@@ -95,4 +95,14 @@ header{
     border-top: 4px solid #F4A740 ;
 }
 
+/*calculator*/
+
+#calculator{
+      margin: var(--margin-card);
+    box-shadow: var(--sombras-cards);
+    padding: var(--padding-card_interno);
+    border-radius: var(--borda-cards);
+    border-top: 4px solid #5BA4DC ;
+}
+
 
