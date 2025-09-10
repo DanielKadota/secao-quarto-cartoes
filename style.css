@@ -123,6 +123,7 @@ header{
     }
     article{
         padding: 20px;
+        margin-bottom: 200px;
         display: grid;
         gap: 5px;
 
