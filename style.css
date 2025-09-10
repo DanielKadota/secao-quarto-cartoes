@@ -105,4 +105,71 @@ header{
     border-top: 4px solid #5BA4DC ;
 }
 
+@media (min-width: 1200px){
+    
+
+    body{
+        margin: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+
+   
+      
+    }
+    article{
+        padding: 20px;
+        display: grid;
+        gap: 5px;
+
+        grid-template-columns:370px 370px 370px;
+        grid-template-rows: 150px 150px 150px;
+        grid-template-areas: 
+        ".            builder           ."
+        "surpervisor     .      calculator"
+        ".             karma            .";
+        
+        
+    }
+    img{
+        width: 70px;
+    }
+
+    header{
+        text-align: center;
+        
+    }
+
+    #surpervisor{
+        grid-area: surpervisor;
+        width: 320px;
+        height: 250px;
+        margin: 0px;
+
+    }
+     #builder{
+        grid-area: builder;
+        width: 320px;
+        height: 250px;
+        margin: 0px;
+
+     }
+     
+     #karma{
+        grid-area: karma ;
+        width: 320px;
+        height: 250px;
+        margin: 0px;
+
+     }
+     #calculator{
+        grid-area: calculator;
+        width: 320px;
+        height: 250px;
+        margin: 0px;
+        
+     }
+
+}
 
