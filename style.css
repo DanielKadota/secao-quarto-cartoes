@@ -21,11 +21,14 @@
     /*fontes*/
     --fonte-h1-header:26px;
     
-    
-
-    
     /*sombras*/
     --sombras-cards: 0 4px 8px rgba(0,0,0,0.08);
+
+    /*desktop*/
+    --tamanho-cards:350px;
+    --altura-cards:250px;
+    --borda-cards:0px;
+    --margin-cards:0px;
     
 
 }
@@ -136,45 +139,58 @@ header{
         width: 70px;
     }
 
+    /*area header*/
+
     header{
         text-align: center;
         
     }
-    header > #titulos > #p_header{
+     #p_header{
         font-size: 35px;
 
     }
-    header > #titulos > #h1_header{
+     #h1_header{
         font-size:35px;
     }
+     #paragrafo_header{
+        font-size: 20px;
+        
+
+        
+    }
+
+    /*cards*/
 
     #surpervisor{
         grid-area: surpervisor;
-        width: 320px;
-        height: 250px;
-        margin: 0px;
+        width: var(--tamanho-cards);
+        height: var(--altura-cards);
+        margin: var(--margin-cards);
+        border-radius: var(--borda-cards);
 
     }
      #builder{
         grid-area: builder;
-        width: 320px;
-        height: 250px;
-        margin: 0px;
-
+       width: var(--tamanho-cards);
+        height: var(--altura-cards);
+        margin: var(--margin-cards);
+        border-radius: var(--borda-cards);
      }
      
      #karma{
         grid-area: karma ;
-        width: 320px;
-        height: 250px;
-        margin: 0px;
+       width: var(--tamanho-cards);
+        height: var(--altura-cards);
+        margin: var(--margin-cards);
+        border-radius: var(--borda-cards);
 
      }
      #calculator{
         grid-area: calculator;
-        width: 320px;
-        height: 250px;
-        margin: 0px;
+        width: var(--tamanho-cards);
+        height: var(--altura-cards);
+        margin: var(--margin-cards);
+        border-radius: var(--borda-cards);
         
      }
 
