@@ -145,18 +145,16 @@ header{
         text-align: center;
         
     }
-     #p_header{
-        font-size: 35px;
+     #titulos > #p_header{
+        font-size: 45px;
 
     }
-     #h1_header{
-        font-size:35px;
+      #titulos > #h1_header{
+        font-size:45px;
     }
-     #paragrafo_header{
+      header > #paragrafo_header{
         font-size: 20px;
-        
-
-        
+        max-width: 600px;
     }
 
     /*cards*/
