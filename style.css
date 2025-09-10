@@ -109,7 +109,7 @@ header{
     
 
     body{
-        margin: 70px;
+        margin: 20px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -139,6 +139,13 @@ header{
     header{
         text-align: center;
         
+    }
+    header > #titulos > #p_header{
+        font-size: 35px;
+
+    }
+    header > #titulos > #h1_header{
+        font-size:35px;
     }
 
     #surpervisor{
